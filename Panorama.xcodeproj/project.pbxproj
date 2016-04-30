@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75761D2D1CD49667006424C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75761D2C1CD49667006424C9 /* AppDelegate.swift */; };
+		75761D2F1CD49667006424C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75761D2E1CD49667006424C9 /* ViewController.swift */; };
+		75761D321CD49667006424C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75761D301CD49667006424C9 /* Main.storyboard */; };
+		75761D341CD49667006424C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75761D331CD49667006424C9 /* Assets.xcassets */; };
+		75761D371CD49667006424C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75761D351CD49667006424C9 /* LaunchScreen.storyboard */; };
+		75761D421CD49667006424C9 /* PanoramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75761D411CD49667006424C9 /* PanoramaTests.swift */; };
+		75761D4D1CD49667006424C9 /* PanoramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75761D4C1CD49667006424C9 /* PanoramaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75761D3E1CD49667006424C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75761D211CD49667006424C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75761D281CD49667006424C9;
+			remoteInfo = Panorama;
+		};
+		75761D491CD49667006424C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75761D211CD49667006424C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75761D281CD49667006424C9;
+			remoteInfo = Panorama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75761D291CD49667006424C9 /* Panorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75761D2C1CD49667006424C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75761D2E1CD49667006424C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75761D311CD49667006424C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75761D331CD49667006424C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75761D361CD49667006424C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75761D381CD49667006424C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75761D3D1CD49667006424C9 /* PanoramaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanoramaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75761D411CD49667006424C9 /* PanoramaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramaTests.swift; sourceTree = "<group>"; };
+		75761D431CD49667006424C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75761D481CD49667006424C9 /* PanoramaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanoramaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75761D4C1CD49667006424C9 /* PanoramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramaUITests.swift; sourceTree = "<group>"; };
+		75761D4E1CD49667006424C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75761D261CD49667006424C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75761D3A1CD49667006424C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75761D451CD49667006424C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75761D201CD49667006424C9 = {
+			isa = PBXGroup;
+			children = (
+				75761D2B1CD49667006424C9 /* Panorama */,
+				75761D401CD49667006424C9 /* PanoramaTests */,
+				75761D4B1CD49667006424C9 /* PanoramaUITests */,
+				75761D2A1CD49667006424C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75761D2A1CD49667006424C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75761D291CD49667006424C9 /* Panorama.app */,
+				75761D3D1CD49667006424C9 /* PanoramaTests.xctest */,
+				75761D481CD49667006424C9 /* PanoramaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75761D2B1CD49667006424C9 /* Panorama */ = {
+			isa = PBXGroup;
+			children = (
+				75761D2C1CD49667006424C9 /* AppDelegate.swift */,
+				75761D2E1CD49667006424C9 /* ViewController.swift */,
+				75761D301CD49667006424C9 /* Main.storyboard */,
+				75761D331CD49667006424C9 /* Assets.xcassets */,
+				75761D351CD49667006424C9 /* LaunchScreen.storyboard */,
+				75761D381CD49667006424C9 /* Info.plist */,
+			);
+			path = Panorama;
+			sourceTree = "<group>";
+		};
+		75761D401CD49667006424C9 /* PanoramaTests */ = {
+			isa = PBXGroup;
+			children = (
+				75761D411CD49667006424C9 /* PanoramaTests.swift */,
+				75761D431CD49667006424C9 /* Info.plist */,
+			);
+			path = PanoramaTests;
+			sourceTree = "<group>";
+		};
+		75761D4B1CD49667006424C9 /* PanoramaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75761D4C1CD49667006424C9 /* PanoramaUITests.swift */,
+				75761D4E1CD49667006424C9 /* Info.plist */,
+			);
+			path = PanoramaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75761D281CD49667006424C9 /* Panorama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75761D511CD49667006424C9 /* Build configuration list for PBXNativeTarget "Panorama" */;
+			buildPhases = (
+				75761D251CD49667006424C9 /* Sources */,
+				75761D261CD49667006424C9 /* Frameworks */,
+				75761D271CD49667006424C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Panorama;
+			productName = Panorama;
+			productReference = 75761D291CD49667006424C9 /* Panorama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75761D3C1CD49667006424C9 /* PanoramaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75761D541CD49667006424C9 /* Build configuration list for PBXNativeTarget "PanoramaTests" */;
+			buildPhases = (
+				75761D391CD49667006424C9 /* Sources */,
+				75761D3A1CD49667006424C9 /* Frameworks */,
+				75761D3B1CD49667006424C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75761D3F1CD49667006424C9 /* PBXTargetDependency */,
+			);
+			name = PanoramaTests;
+			productName = PanoramaTests;
+			productReference = 75761D3D1CD49667006424C9 /* PanoramaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75761D471CD49667006424C9 /* PanoramaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75761D571CD49667006424C9 /* Build configuration list for PBXNativeTarget "PanoramaUITests" */;
+			buildPhases = (
+				75761D441CD49667006424C9 /* Sources */,
+				75761D451CD49667006424C9 /* Frameworks */,
+				75761D461CD49667006424C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75761D4A1CD49667006424C9 /* PBXTargetDependency */,
+			);
+			name = PanoramaUITests;
+			productName = PanoramaUITests;
+			productReference = 75761D481CD49667006424C9 /* PanoramaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75761D211CD49667006424C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aadi007;
+				TargetAttributes = {
+					75761D281CD49667006424C9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					75761D3C1CD49667006424C9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 75761D281CD49667006424C9;
+					};
+					75761D471CD49667006424C9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 75761D281CD49667006424C9;
+					};
+				};
+			};
+			buildConfigurationList = 75761D241CD49667006424C9 /* Build configuration list for PBXProject "Panorama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75761D201CD49667006424C9;
+			productRefGroup = 75761D2A1CD49667006424C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75761D281CD49667006424C9 /* Panorama */,
+				75761D3C1CD49667006424C9 /* PanoramaTests */,
+				75761D471CD49667006424C9 /* PanoramaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75761D271CD49667006424C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75761D371CD49667006424C9 /* LaunchScreen.storyboard in Resources */,
+				75761D341CD49667006424C9 /* Assets.xcassets in Resources */,
+				75761D321CD49667006424C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75761D3B1CD49667006424C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75761D461CD49667006424C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75761D251CD49667006424C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75761D2F1CD49667006424C9 /* ViewController.swift in Sources */,
+				75761D2D1CD49667006424C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75761D391CD49667006424C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75761D421CD49667006424C9 /* PanoramaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75761D441CD49667006424C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75761D4D1CD49667006424C9 /* PanoramaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75761D3F1CD49667006424C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75761D281CD49667006424C9 /* Panorama */;
+			targetProxy = 75761D3E1CD49667006424C9 /* PBXContainerItemProxy */;
+		};
+		75761D4A1CD49667006424C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75761D281CD49667006424C9 /* Panorama */;
+			targetProxy = 75761D491CD49667006424C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75761D301CD49667006424C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75761D311CD49667006424C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75761D351CD49667006424C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75761D361CD49667006424C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75761D4F1CD49667006424C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75761D501CD49667006424C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75761D521CD49667006424C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Panorama/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadi007.Panorama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75761D531CD49667006424C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Panorama/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadi007.Panorama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75761D551CD49667006424C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PanoramaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadi007.PanoramaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panorama.app/Panorama";
+			};
+			name = Debug;
+		};
+		75761D561CD49667006424C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PanoramaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadi007.PanoramaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panorama.app/Panorama";
+			};
+			name = Release;
+		};
+		75761D581CD49667006424C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PanoramaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadi007.PanoramaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Panorama;
+			};
+			name = Debug;
+		};
+		75761D591CD49667006424C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PanoramaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadi007.PanoramaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Panorama;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75761D241CD49667006424C9 /* Build configuration list for PBXProject "Panorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75761D4F1CD49667006424C9 /* Debug */,
+				75761D501CD49667006424C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75761D511CD49667006424C9 /* Build configuration list for PBXNativeTarget "Panorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75761D521CD49667006424C9 /* Debug */,
+				75761D531CD49667006424C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75761D541CD49667006424C9 /* Build configuration list for PBXNativeTarget "PanoramaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75761D551CD49667006424C9 /* Debug */,
+				75761D561CD49667006424C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75761D571CD49667006424C9 /* Build configuration list for PBXNativeTarget "PanoramaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75761D581CD49667006424C9 /* Debug */,
+				75761D591CD49667006424C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75761D211CD49667006424C9 /* Project object */;
+}
